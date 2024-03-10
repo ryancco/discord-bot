@@ -4,7 +4,6 @@ services:
     env_file:
       - .env
     build: .
-    command: 'node .'
     volumes:
       - .:/app
       - /app/node_modules
