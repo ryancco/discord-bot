@@ -42,8 +42,8 @@ client.on(Events.GuildMemberAdd, async (guildMember: GuildMember) => {
 
         console.log(
             `${guildMember.user.username} JOINED SERVER ${guildMember.guild.name} VIA INVITE: \n`,
-            Array.from(formatted).join('\n')
-            + '\n\n'
+            Array.from(formatted).join('\n'),
+            '\n\n'
         );
     }
 });
